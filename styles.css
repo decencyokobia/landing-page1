@@ -336,6 +336,10 @@ footer {
         gap: 0rem;
     }
 
+    #block3 img {
+        width: 70vw;
+    }
+
     .sideItems h3, #block2 h2, #block4 h2, #block5 h2{
 
         font-size: max(100%, 5vh);
