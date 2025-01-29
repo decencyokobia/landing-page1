@@ -1,0 +1,470 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(bg-header-mobile.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    font-family: "Bai Jamjuree", serif;
+}
+
+main {
+    width: min(800px, 95vw);
+    margin: auto;
+}
+
+header {
+    width: min(800px, 95vw);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 6rem;
+    margin: auto;
+}
+
+header svg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 95px;
+    height: 95px;
+    margin-bottom: 3rem;
+}
+
+#block1 {
+    width: min(800px, 95vw);
+    margin: auto;
+}
+
+#block1 h1{
+    text-align: center;
+    font-size: max(80%, 5.5vh);
+    font-weight: 600;
+    color: hsl(210, 10%, 33%);
+    margin-bottom: 1.2rem;
+}
+
+#block1 p{
+    color: hsl(201, 11%, 66%);
+    font-size: max(80%, 2.7vh);
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+#block1--buttons {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+    margin: auto;
+    width: min(800px, 95vw);
+}
+
+.button{
+    padding: 1rem 4rem;
+    border-radius: 2rem;
+    font-size: 1rem;
+    color: white;
+    font-weight: 500;
+}
+
+.button:hover{
+    cursor: pointer;
+    background-color: red;
+}
+
+.button--colorCyan {
+    background-color: hsl(171, 66%, 44%)
+}
+
+.button--colorBlue {
+    background-color:hsl(233, 100%, 69%);
+}
+
+#block2 {
+    width: min(800px, 95vw);
+    margin: auto;
+    padding-top: 10rem;
+}
+
+#block2 h2{
+    text-align: center;
+    color: hsl(210, 10%, 33%);
+    font-size: max(100%, 4vh);
+    font-weight: 600;
+    margin-bottom: 1.2rem;
+}
+
+#block2 p{
+    text-align: center;
+    color: hsl(201, 11%, 66%);
+    font-size: max(100%, 2.2vh);
+    margin-bottom: 3.5rem;
+}
+
+#block3 {
+    width: min(800px, 100vw);
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+#block3 img{
+    width: 52vh;
+    margin-bottom: 5rem;
+}
+
+.sideItems h3 {
+    color: hsl(210, 10%, 33%);
+    font-size: max(100%, 2.5vh);
+    margin-bottom: 0.5rem;
+}
+
+.sideItems p {
+    color: hsl(201, 11%, 66%);
+    line-height: 1.2;
+    margin-bottom: 2.5rem;
+    font-size: max(100%, 1vw);
+}
+
+#block4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: min(800px, 100vw);
+    margin-bottom: 3rem;
+}
+
+#block4 h2 {
+    color: hsl(210, 10%, 33%);
+    font-size: max(100%, 4vh);
+    font-weight: 600;
+    margin-bottom: 1.2rem;
+}
+
+#block4 p{
+    color: hsl(201, 11%, 66%);
+    font-size: max(75%, 2.4vh);
+    margin-bottom: 4.5rem;
+    padding: 0rem 2rem;
+}
+
+#block4 img{
+    width: max(58%, 15vw);
+    height: auto;
+   margin: auto;
+}
+
+#block5 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: min(800px, 100vw);
+    margin: auto;
+}
+
+#Supercharge-block h2{
+    color: hsl(210, 10%, 33%);
+    font-size: max(100%, 4vh);
+    font-weight: 600;
+    margin-bottom: 1.2rem;
+}
+
+#Supercharge-block p{
+    color: hsl(201, 11%, 66%);
+    font-size: max(75%, 2.4vh);
+    margin-bottom: 4.5rem;
+}
+
+#Supercharge-blockItems {
+    width: min(800px, 100vw);
+    align-items: center;
+    margin: auto;
+    display: flex;
+    align-items: flex-start;
+    gap: 2rem;
+
+}  
+
+.spc--itemsSvg {
+    width: 45px;
+    height: 45px;
+}
+
+#Supercharge-blockItems h3 {
+        color: hsl(210, 10%, 33%);
+        font-size: max(80%, 2.3vh);
+        font-weight: 600;
+        margin-bottom: 1rem;
+        margin-top: 1.5rem;
+       
+}
+
+#Supercharge-blockItems p {
+        color: hsl(201, 11%, 66%);
+        line-height: 2;
+        margin-bottom: 3rem;
+        font-size: max(75%, 1.9vh);
+}
+
+#block6 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 6rem;
+    margin-bottom: 10rem;
+    gap: 7rem;
+}
+
+#block7 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+}
+
+#block7 h2{
+    color: hsl(210, 10%, 33%);
+    font-size: max(100%, 4.5vh);
+    font-weight: 600;
+    margin-bottom: 1.2rem;
+}
+
+#block7 p{
+    color: hsl(201, 11%, 66%);
+    font-size: max(75%, 2.4vh);
+    margin-bottom: 4.5rem;
+    padding: 0rem 8rem;
+}
+
+#block7--buttons {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+    margin-bottom: 10rem;
+}
+
+footer {
+    background-color: hsl(210, 37%, 97%);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem 8rem;
+
+}
+
+#footer-firsthalf1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5rem;
+}
+
+.contact--row {
+    display: flex;
+    justify-content:flex-start;
+}
+
+.contact--rowItem{
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    line-height: 2;
+    padding-right: 3.5rem;
+}
+
+.contact--rowItem a{
+    color: hsl(201, 11%, 66%);
+    text-decoration: none;
+}
+
+.rowItem:hover{
+    color: hsl(171, 66%, 44%);
+    border-bottom: 2px solid hsl(233, 100%, 69%);
+}
+
+.social-icons {
+    font-size: 1.5rem;
+    margin-right: 0.5rem;
+    color: hsl(201, 11%, 66%);
+}
+
+.social-icons:hover{
+    color: hsl(171, 66%, 44%);
+    border-bottom: 2px solid hsl(233, 100%, 69%);
+}
+
+#bottom-logo {
+    display: block;
+    margin-right: 3rem;
+    justify-content: left;
+}
+
+#bottom-logo svg{
+    width: 45px;
+    height: 45px;
+}
+
+/*Media Queries for responsiveness=================== */
+
+@media screen and (max-width: 780px){
+    main {
+        width: 100vw;
+    }
+    #block3 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 0rem;
+    }
+
+    .sideItems h3, #block2 h2, #block4 h2, #block5 h2{
+
+        font-size: max(100%, 5vh);
+        margin-bottom: 1.1rem;
+    }
+    
+    .sideItems p, #block2 p, #block4 p, #block5 p {
+        line-height: 1.5;
+        margin-bottom: 2.5rem;
+        font-size: max(100%, 4.5vw);
+        padding: 0rem 2rem;
+    }
+
+    #block4 {
+        margin-top: 5rem;
+        margin-bottom: 6rem;
+    }
+
+    #Supercharge-blockItems {
+        margin-top: 5rem;
+        flex-direction: column;
+    }
+
+    #Supercharge-blockItems h3{
+        font-size: max(100%, 5vw);
+    }
+
+    #Supercharge-blockItems p{
+        font-size: max(100%, 4.5vw);
+        padding: 0rem 3rem;
+    }
+
+    #block6 {
+        flex-direction: column;
+    }
+
+    #block7 h2 {
+        padding: 0rem 1rem;
+        font-size: max(100%, 5vh);
+    }
+
+    #block7 p{
+        padding-right: 2rem;
+        padding-left: 2rem;
+        font-size: max(100%, 3vw);
+    }
+
+    footer {
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 2rem;
+        padding: 1rem 0rem;
+    }
+
+    #footer-firsthalf1 {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .contact--row {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .contact--rowItem{
+        padding-right: 0rem;
+        line-height: 3;
+        font-size: max(80%, 5vw);
+        font-weight: 500;
+        color: hsl(210, 3%, 12%);
+    }
+
+    .social-icons {
+        font-size: max(80%, 6.5vw);
+        color: hsl(210, 10%, 33%);
+    }
+
+    #footer-half2 {
+        display: flex;
+        gap: 2.5rem;
+    }
+
+    #bottom-logo {
+        margin-right: 0rem;
+    }
+    
+    #bottom-logo svg{
+        width: 80px;
+        height: 80px;
+    }
+}
+
+@media screen and (min-width: 781px) and (max-width: 1250px){
+    body {
+        background-image: url(bg-header-desktop.png);
+    }
+
+    main {
+        width: 100vw;
+    }
+
+    #Supercharge-blockItems {
+        padding-left: 0.7rem;
+        padding-right: 0.7rem;
+    }
+
+    #block4 {
+        width: 100vw;
+    }
+
+    #block6 {
+        flex-wrap: wrap;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+
+    footer{
+        padding: 2rem;
+    }
+}
+
+@media screen and (min-width: 781px){
+    body {
+        background-image: url(bg-header-desktop.png);
+    }
+}
