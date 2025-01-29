@@ -14,7 +14,7 @@ body {
 }
 
 main {
-    width: min(800px, 95vw);
+    width: min(800px, 90vw);
     margin: auto;
 }
 
